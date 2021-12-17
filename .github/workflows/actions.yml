@@ -4,12 +4,6 @@ on:
   push:
     branches:
       - master
-  pull_request:
-    branches:
-      - master
-    types:
-      - ready_for_review
-      - review_requested
 
 jobs:
   test:
